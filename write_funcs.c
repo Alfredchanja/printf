@@ -2,7 +2,12 @@
 #include <unistd.h>
 
 /**
+ * _putchar - write the character c to stdout
+ * @c: a character
  *
+ * Return: On success 1
+ * Description: _putchar uses a local buffer of 1024 to call write
+* as little as possible
  */
 int _putchar(char c)
 {
