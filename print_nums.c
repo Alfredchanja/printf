@@ -1,5 +1,11 @@
 #include "main.h"
 
+/**
+ * print_int - prints an integer
+ * @l: va_list of arguments
+ * @f: pointer to the struct flags
+ * Return: number of char printed
+ */
 int print_int(va_list l, flags_t *f)
 {
 	int n = va_arg(l, int);
